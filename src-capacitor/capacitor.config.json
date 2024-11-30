@@ -1,0 +1,8 @@
+{
+  "appId": "com.mao.app",
+  "appName": "MapOfActivities",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

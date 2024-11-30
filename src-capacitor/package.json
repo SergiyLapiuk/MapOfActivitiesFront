@@ -1,0 +1,13 @@
+{
+  "name": "mapofactivities",
+  "version": "0.0.1",
+  "description": "Map of activities",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^5.7.5",
+    "@capacitor/app": "^5.0.0",
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/core": "^5.0.0"
+  },
+  "author": ""
+}

@@ -1,0 +1,147 @@
+
+.event-item-joined {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 80%;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  background-color: #ffffff;
+}
+.event-item-joined:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.event-item-joined a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.event-item-joined a:hover {
+  color: #007bff;
+}
+
+.event-item-created {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 80%;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  background-color: #ffffff;
+}
+.event-item-created:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.event-item-created a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.event-item-created a:hover {
+  color: #007bff;
+}
+
+.TopLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.inputStyle {
+  display: block;
+  margin: auto;
+  max-width: 95%;
+  font-size: 25px;
+}
+.TopLineProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 36px;
+  border-bottom: 1px solid #8d8d8d;
+}
+.profile-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.profile-text-spacer {
+  visibility: hidden; /* Робить блок невидимим, але він все ще займає місце в макеті */
+}
+.logout-button {
+  /* Налаштування стилів для кнопки Logout, якщо потрібно */
+}
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+.user-details {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 40px;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: rgba(0, 0, 0, 0.56);
+  margin-bottom: 4px;
+}
+.value {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.fakeobject {
+  width: 30%;
+}
+.tab-btn {
+  padding: 10px;
+  background: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  border: 1px solid #000000;
+  outline: none;
+  width: 50%;
+}
+.active {
+  border-bottom: 4px solid rgb(0, 0, 0);
+  background: none;
+}
+.tab {
+  border: 1px solid #ccc;
+  padding: 10px;
+}

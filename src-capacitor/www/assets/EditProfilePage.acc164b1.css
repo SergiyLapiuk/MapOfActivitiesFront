@@ -1,0 +1,22 @@
+
+.TopLineEditProfile {
+  display: flex;
+  justify-content: center; /* Вирівнює горизонтально по центру */
+  align-items: center; /* Вирівнює вертикально по центру */
+  margin-bottom: 20px;
+  height: 36px; /* Ви можете встановити конкретну висоту */
+  border-bottom: 1px solid #8d8d8d; /* Adds a bottom border line */
+}
+.inputStyleProfile {
+  display: block;
+  margin: auto;
+  max-width: 95%;
+  font-size: 25px;
+}
+.edit-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px; /* Додаємо відступи з кожного боку, наприклад, по 10px */
+  margin-bottom: 20px;
+}

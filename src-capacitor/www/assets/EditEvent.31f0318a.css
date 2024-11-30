@@ -1,0 +1,22 @@
+
+.TopLine[data-v-4bf471f7] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.inputStyle[data-v-4bf471f7] {
+  display: block;
+  margin: auto;
+  max-width: 95%;
+  font-size: 25px;
+}
+.map[data-v-4bf471f7] {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
